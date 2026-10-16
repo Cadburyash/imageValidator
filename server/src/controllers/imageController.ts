@@ -61,11 +61,18 @@ const upload = multer({
     fileSize: maxFileSize,
   },
   fileFilter: (_req, file, callback) => {
+
+    console.log('Uploaded filename:', file.originalname);
+    console.log('Uploaded MIME type:', file.mimetype);
+
     const allowedTypes = [
-      'image/jpeg',
-      'image/png',
-      'image/heic',
-      'image/heif',
+        'image/jpeg',
+        'image/png',
+        'image/heic',
+        'image/heif',
+        'image/heic-sequence',
+        'image/heif-sequence',
+        'application/octet-stream',
     ];
 
     if (!allowedTypes.includes(file.mimetype)) {
