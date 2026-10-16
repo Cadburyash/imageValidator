@@ -1,0 +1,41 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.21.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\Contributing\Aragon\.npmrc
+5 silly config load:file:C:\Users\cadbu\.npmrc
+6 silly config load:file:C:\Users\cadbu\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "D:\\Contributing\\Aragon\\tmp\\npm-cache" "--loglevel" "verbose"
+9 verbose logfile logs-max:10 dir:D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_21_50_750Z-
+10 verbose logfile D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_21_50_750Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly install-scripts no package.json at prefix Could not read package.json: Error: ENOENT: no such file or directory, open 'D:\Contributing\Aragon\package.json'
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+17 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open 'D:\Contributing\Aragon\package.json'
+17 verbose stack     at async open (node:internal/fs/promises:1345:25)
+17 verbose stack     at async readFile (node:internal/fs/promises:1996:14)
+17 verbose stack     at async read (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\read-package.js:9:18)
+17 verbose stack     at async PackageJson.load (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:131:31)
+17 verbose stack     at async PackageJson.normalize (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:117:5)
+17 verbose stack     at async runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:11:28)
+17 verbose stack     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:171:9)
+17 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+17 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:67:5)
+18 error code ENOENT
+19 error syscall open
+20 error path D:\Contributing\Aragon\package.json
+21 error errno -4058
+22 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'D:\Contributing\Aragon\package.json'
+23 error enoent This is related to npm not being able to find a file.
+23 error enoent
+24 verbose cwd D:\Contributing\Aragon
+25 verbose os Windows_NT 10.0.26300
+26 verbose node v24.21.0
+27 verbose npm  v11.19.0
+28 verbose exit -4058
+29 verbose code -4058
+30 error A complete log of this run can be found in: D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_21_50_750Z-debug-0.log

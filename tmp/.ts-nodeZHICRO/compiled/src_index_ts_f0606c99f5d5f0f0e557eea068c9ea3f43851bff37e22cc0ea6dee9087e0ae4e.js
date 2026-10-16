@@ -1,0 +1,1 @@
+throw new Error("Must use import to load ES Module: D:\\Contributing\\Aragon\\server\\src\\index.ts");

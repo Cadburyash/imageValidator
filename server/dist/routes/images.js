@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.imageRouter = void 0;
+const express_1 = require("express");
+const imageController_1 = require("../controllers/imageController");
+const router = (0, express_1.Router)();
+exports.imageRouter = router;
+router.post('/', imageController_1.uploadImage);
+router.get('/', imageController_1.getImages);
+router.get('/:id', imageController_1.getImageById);
+router.delete('/:id', imageController_1.deleteImage);

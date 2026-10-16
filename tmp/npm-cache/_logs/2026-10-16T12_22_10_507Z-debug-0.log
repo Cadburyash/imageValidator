@@ -1,0 +1,48 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.21.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\Contributing\Aragon\server\.npmrc
+5 silly config load:file:C:\Users\cadbu\.npmrc
+6 silly config load:file:C:\Users\cadbu\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "D:\\Contributing\\Aragon\\tmp\\npm-cache" "--loglevel" "verbose"
+9 verbose logfile logs-max:10 dir:D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_22_10_507Z-
+10 verbose logfile D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_22_10_507Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly install-scripts no package.json at prefix Invalid package.json: JSONParseError: Unexpected token "'" (0x27), "'{
+12 silly install-scripts   "name"... is not valid JSON while parsing ''{
+12 silly install-scripts   "name": "server",
+12 silly install-scripts   "version": "1.0'
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 verbose stack JSONParseError: Invalid package.json: JSONParseError: Unexpected token "'" (0x27), "'{
+14 verbose stack   "name"... is not valid JSON while parsing ''{
+14 verbose stack   "name": "server",
+14 verbose stack   "version": "1.0'
+14 verbose stack     at parse (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\read-package.js:19:21)
+14 verbose stack     at PackageJson.fromJSON (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:162:22)
+14 verbose stack     at PackageJson.load (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:157:17)
+14 verbose stack     at async PackageJson.normalize (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:117:5)
+14 verbose stack     at async #initTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:283:34)
+14 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:177:7)
+14 verbose stack     at async Promise.all (index 1)
+14 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:118:5)
+14 verbose stack     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:158:5)
+14 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+15 error code EJSONPARSE
+16 error JSON.parse Invalid package.json: JSONParseError: Unexpected token "'" (0x27), "'{
+16 error JSON.parse   "name"... is not valid JSON while parsing ''{
+16 error JSON.parse   "name": "server",
+16 error JSON.parse   "version": "1.0'
+17 error JSON.parse Failed to parse JSON data.
+17 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+18 silly unfinished npm timer reify 1792153331434
+19 silly unfinished npm timer reify:loadTrees 1792153331439
+20 silly unfinished npm timer idealTree:init 1792153331441
+21 verbose cwd D:\Contributing\Aragon\server
+22 verbose os Windows_NT 10.0.26300
+23 verbose node v24.21.0
+24 verbose npm  v11.19.0
+25 verbose exit 1
+26 verbose code 1
+27 error A complete log of this run can be found in: D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_22_10_507Z-debug-0.log

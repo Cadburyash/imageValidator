@@ -1,0 +1,44 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.21.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\Contributing\Aragon\.npmrc
+5 silly config load:file:C:\Users\cadbu\.npmrc
+6 silly config load:file:C:\Users\cadbu\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install ./tmp2/npm-temp typescript
+8 verbose argv "install" "--cache" "./tmp2/npm-cache" "--temp" "./tmp2/npm-temp" "typescript"
+9 verbose logfile logs-max:10 dir:D:\Contributing\Aragon\tmp2\npm-cache\_logs\2026-10-16T16_21_57_386Z-
+10 verbose logfile D:\Contributing\Aragon\tmp2\npm-cache\_logs\2026-10-16T16_21_57_386Z-debug-0.log
+11 warn "./tmp2/npm-temp" is being parsed as a normal command line argument.
+12 warn Unknown cli config "--temp". This will stop working in the next major version of npm.
+13 silly logfile done cleaning log files
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+16 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open 'D:\Contributing\Aragon\tmp2\npm-temp\package.json'
+16 verbose stack     at async open (node:internal/fs/promises:1345:25)
+16 verbose stack     at async readFile (node:internal/fs/promises:1996:14)
+16 verbose stack     at async read (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\read-package.js:9:18)
+16 verbose stack     at async PackageJson.load (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:131:31)
+16 verbose stack     at async PackageJson.normalize (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:117:5)
+16 verbose stack     at async C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:541:22
+16 verbose stack     at async Promise.all (index 0)
+16 verbose stack     at async #add (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:530:5)
+16 verbose stack     at async #applyUserRequestsToNode (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:501:7)
+16 verbose stack     at async #applyUserRequests (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:432:7)
+17 error code ENOENT
+18 error syscall open
+19 error path D:\Contributing\Aragon\tmp2\npm-temp\package.json
+20 error errno -4058
+21 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'D:\Contributing\Aragon\tmp2\npm-temp\package.json'
+22 error enoent This is related to npm not being able to find a file.
+22 error enoent
+23 silly unfinished npm timer reify 1792167718387
+24 silly unfinished npm timer reify:loadTrees 1792167718388
+25 silly unfinished npm timer idealTree:userRequests 1792167718404
+26 verbose cwd D:\Contributing\Aragon
+27 verbose os Windows_NT 10.0.26300
+28 verbose node v24.21.0
+29 verbose npm  v11.19.0
+30 verbose exit -4058
+31 verbose code -4058
+32 error A complete log of this run can be found in: D:\Contributing\Aragon\tmp2\npm-cache\_logs\2026-10-16T16_21_57_386Z-debug-0.log

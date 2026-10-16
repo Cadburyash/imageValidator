@@ -1,0 +1,140 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.21.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\Contributing\Aragon\server\.npmrc
+5 silly config load:file:C:\Users\cadbu\.npmrc
+6 silly config load:file:C:\Users\cadbu\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "D:\\Contributing\\Aragon\\tmp\\npm-cache"
+9 verbose logfile logs-max:10 dir:D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_23_14_349Z-
+10 verbose logfile D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_23_14_349Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @prisma/client@^5.0.0
+15 silly packumentCache full:https://registry.npmjs.org/@prisma%2fclient cache-miss
+16 http fetch GET https://registry.npmjs.org/@prisma%2fclient attempt 1 failed with EACCES
+17 http fetch GET https://registry.npmjs.org/@prisma%2fclient attempt 2 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/@prisma%2fclient attempt 3 failed with EACCES
+19 silly fetch manifest cors@^2.8.5
+20 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+21 http fetch GET https://registry.npmjs.org/cors attempt 1 failed with EACCES
+22 http fetch GET https://registry.npmjs.org/cors attempt 2 failed with EACCES
+23 http fetch GET https://registry.npmjs.org/cors attempt 3 failed with EACCES
+24 silly fetch manifest dotenv@^16.0.0
+25 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+26 http fetch GET https://registry.npmjs.org/dotenv attempt 1 failed with EACCES
+27 http fetch GET https://registry.npmjs.org/dotenv attempt 2 failed with EACCES
+28 http fetch GET https://registry.npmjs.org/dotenv attempt 3 failed with EACCES
+29 silly fetch manifest express@^4.18.0
+30 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+31 http fetch GET https://registry.npmjs.org/express attempt 1 failed with EACCES
+32 http fetch GET https://registry.npmjs.org/express attempt 2 failed with EACCES
+33 http fetch GET https://registry.npmjs.org/express attempt 3 failed with EACCES
+34 silly fetch manifest multer@^1.4.0
+35 silly packumentCache full:https://registry.npmjs.org/multer cache-miss
+36 http fetch GET https://registry.npmjs.org/multer attempt 1 failed with EACCES
+37 http fetch GET https://registry.npmjs.org/multer attempt 2 failed with EACCES
+38 http fetch GET https://registry.npmjs.org/multer attempt 3 failed with EACCES
+39 silly fetch manifest sharp@^0.30.0
+40 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+41 http fetch GET https://registry.npmjs.org/sharp attempt 1 failed with EACCES
+42 http fetch GET https://registry.npmjs.org/sharp attempt 2 failed with EACCES
+43 http fetch GET https://registry.npmjs.org/sharp attempt 3 failed with EACCES
+44 silly fetch manifest zod@^3.0.0
+45 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+46 http fetch GET https://registry.npmjs.org/zod attempt 1 failed with EACCES
+47 http fetch GET https://registry.npmjs.org/zod attempt 2 failed with EACCES
+48 http fetch GET https://registry.npmjs.org/zod attempt 3 failed with EACCES
+49 silly fetch manifest @types/cors@^2.8.0
+50 silly packumentCache full:https://registry.npmjs.org/@types%2fcors cache-miss
+51 http fetch GET https://registry.npmjs.org/@types%2fcors attempt 1 failed with EACCES
+52 http fetch GET https://registry.npmjs.org/@types%2fcors attempt 2 failed with EACCES
+53 http fetch GET https://registry.npmjs.org/@types%2fcors attempt 3 failed with EACCES
+54 silly fetch manifest @types/express@^4.17.0
+55 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress cache-miss
+56 http fetch GET https://registry.npmjs.org/@types%2fexpress attempt 1 failed with EACCES
+57 http fetch GET https://registry.npmjs.org/@types%2fexpress attempt 2 failed with EACCES
+58 http fetch GET https://registry.npmjs.org/@types%2fexpress attempt 3 failed with EACCES
+59 silly fetch manifest @types/multer@^1.0.0
+60 silly packumentCache full:https://registry.npmjs.org/@types%2fmulter cache-miss
+61 http fetch GET https://registry.npmjs.org/@types%2fmulter attempt 1 failed with EACCES
+62 http fetch GET https://registry.npmjs.org/@types%2fmulter attempt 2 failed with EACCES
+63 http fetch GET https://registry.npmjs.org/@types%2fmulter attempt 3 failed with EACCES
+64 silly fetch manifest @types/node@^18.0.0
+65 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+66 http fetch GET https://registry.npmjs.org/@types%2fnode attempt 1 failed with EACCES
+67 http fetch GET https://registry.npmjs.org/@types%2fnode attempt 2 failed with EACCES
+68 http fetch GET https://registry.npmjs.org/@types%2fnode attempt 3 failed with EACCES
+69 silly fetch manifest @types/zod@^3.0.0
+70 silly packumentCache full:https://registry.npmjs.org/@types%2fzod cache-miss
+71 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 1 failed with EACCES
+72 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 2 failed with EACCES
+73 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 3 failed with EACCES
+74 silly fetch manifest prisma@^5.0.0
+75 silly packumentCache full:https://registry.npmjs.org/prisma cache-miss
+76 http fetch GET https://registry.npmjs.org/prisma attempt 1 failed with EACCES
+77 http fetch GET https://registry.npmjs.org/prisma attempt 2 failed with EACCES
+78 http fetch GET https://registry.npmjs.org/prisma attempt 3 failed with EACCES
+79 silly fetch manifest ts-node-dev@^2.0.0
+80 silly packumentCache full:https://registry.npmjs.org/ts-node-dev cache-miss
+81 http fetch GET https://registry.npmjs.org/ts-node-dev attempt 1 failed with EACCES
+82 http fetch GET https://registry.npmjs.org/ts-node-dev attempt 2 failed with EACCES
+83 http fetch GET https://registry.npmjs.org/ts-node-dev attempt 3 failed with EACCES
+84 silly fetch manifest typescript@^5.0.0
+85 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+86 http fetch GET https://registry.npmjs.org/typescript attempt 1 failed with EACCES
+87 http fetch GET https://registry.npmjs.org/typescript attempt 2 failed with EACCES
+88 http fetch GET https://registry.npmjs.org/typescript attempt 3 failed with EACCES
+89 silly placeDep ROOT @prisma/client@ OK for: server@1.0.0 want: ^5.0.0
+90 silly placeDep ROOT @types/cors@ OK for: server@1.0.0 want: ^2.8.0
+91 silly placeDep ROOT @types/express@ OK for: server@1.0.0 want: ^4.17.0
+92 silly placeDep ROOT @types/multer@ OK for: server@1.0.0 want: ^1.0.0
+93 silly placeDep ROOT @types/node@ OK for: server@1.0.0 want: ^18.0.0
+94 silly placeDep ROOT @types/zod@ OK for: server@1.0.0 want: ^3.0.0
+95 silly placeDep ROOT cors@ OK for: server@1.0.0 want: ^2.8.5
+96 silly placeDep ROOT dotenv@ OK for: server@1.0.0 want: ^16.0.0
+97 silly placeDep ROOT express@ OK for: server@1.0.0 want: ^4.18.0
+98 silly placeDep ROOT multer@ OK for: server@1.0.0 want: ^1.4.0
+99 silly placeDep ROOT prisma@ OK for: server@1.0.0 want: ^5.0.0
+100 silly placeDep ROOT sharp@ OK for: server@1.0.0 want: ^0.30.0
+101 silly placeDep ROOT ts-node-dev@ OK for: server@1.0.0 want: ^2.0.0
+102 silly placeDep ROOT typescript@ OK for: server@1.0.0 want: ^5.0.0
+103 silly placeDep ROOT zod@ OK for: server@1.0.0 want: ^3.0.0
+104 verbose type system
+105 verbose stack FetchError: request to https://registry.npmjs.org/@prisma%2fclient failed, reason: 
+105 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+105 verbose stack     at ClientRequest.emit (node:events:514:28)
+105 verbose stack     at emitErrorEvent (node:_http_client:114:11)
+105 verbose stack     at _destroy (node:_http_client:1167:9)
+105 verbose stack     at onSocketNT (node:_http_client:1188:5)
+105 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+106 error code EACCES
+107 error errno EACCES
+108 error FetchError: request to https://registry.npmjs.org/@prisma%2fclient failed, reason: 
+108 error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+108 error     at ClientRequest.emit (node:events:514:28)
+108 error     at emitErrorEvent (node:_http_client:114:11)
+108 error     at _destroy (node:_http_client:1167:9)
+108 error     at onSocketNT (node:_http_client:1188:5)
+108 error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+108 error   code: 'EACCES',
+108 error   errno: 'EACCES',
+108 error   type: 'system',
+108 error   requiredBy: '.'
+108 error }
+109 error
+109 error The operation was rejected by your operating system.
+109 error It's possible that the file was already in use (by a text editor or antivirus), or that you lack permissions to access it.
+109 error
+109 error If you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.
+110 silly unfinished npm timer reify 1792153395281
+111 silly unfinished npm timer reify:loadTrees 1792153395285
+112 verbose cwd D:\Contributing\Aragon\server
+113 verbose os Windows_NT 10.0.26300
+114 verbose node v24.21.0
+115 verbose npm  v11.19.0
+116 verbose exit 1
+117 verbose code 1
+118 error A complete log of this run can be found in: D:\Contributing\Aragon\tmp\npm-cache\_logs\2026-10-16T12_23_14_349Z-debug-0.log
